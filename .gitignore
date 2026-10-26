@@ -1,0 +1,18 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.env*
+!.env.example
+
+# Local credentials and private keys
+secrets/
+secrets.*
+*.pem
+*.key
+*.p12
+*.pfx
+.aws/
+.npmrc
+
+# Local tooling output
+*.log
